@@ -2,7 +2,7 @@
 #include <string.h>
 
 //functions
-void decrypt(FILE *fin, FILE *fout, char subarr[], char pass[]);
+void decrypt(FILE *fin, FILE *fout, char subarr[], char pass[]); 
 void encrypt(FILE *fin, FILE *fout, char subarr[], char pass[]);
 void set_parameters(char pass[], char key[], FILE *ifstream, char *repeat);
 int take_index(char subarr[], char ch){
